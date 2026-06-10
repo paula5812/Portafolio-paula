@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #156987;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: #FFF;
+    text-align: center;
+    padding: 25px;
+    font-size: 40px;
+}
+
+.perfil{
+    width: 70%;
+    margin: auto;
+    background-color: #8acde6;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.perfil img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.perfil_contenido{
+    font-size: 22px;
+    color: #FFF;
+}
+
+.perfil_contenido h2{
+    margin-bottom: 15px;
+}
+
+.materias{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.tarjeta{
+    flex: 1;
+    background-color: #8acde6;
+    padding: 30px;
+    border-radius: 15px;
+    color: #FFF;
+    transition: 0.3s;
+}
+
+.tarjeta:hover{
+    box-shadow: 0px 0px 4px 4px #ccc;
+}
+
+.tarjeta h2{
+    margin-bottom: 15px;
+    border-bottom: 4px solid #FFF;
+    padding-bottom: 10px;
+}
+
+.tarjeta p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.tarjeta a{
+    background-color: #156987;
+    padding: 10px 18px;
+    border-radius: 5px;
+    display: block;
+    transition: 0.3s;
+    color: #FFF;
+    text-decoration: none;
+    margin: 10px auto;
+    width: 180px;
+    text-align: center;
+}
+
+.parciales{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer{
+    background-color: #2596be;
+    color: #fff;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+}
